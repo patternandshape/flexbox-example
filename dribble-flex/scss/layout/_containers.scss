@@ -1,0 +1,51 @@
+.shots {
+  padding: 20px 0;
+}
+.shots .shot-wrap {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.shots .shot {
+  background: white;
+  padding: 10px 10px 6px 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+.shots .meta {
+  color: #888;
+}
+.shots .meta div:before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 18px;
+  background: pink;
+  margin: 0 2px 0 5px;
+  position: relative;
+  top: 2px;
+}
+.shots .meta div.views:before {
+  background: url(https://d13yacurqjgara.cloudfront.net/assets/icon-views-sm-f315b1f67523edc4a3e8b4a5c20a7fa6.png) center top no-repeat;
+}
+.shots .meta div.comments:before {
+  background: url(https://d13yacurqjgara.cloudfront.net/assets/icon-comments-4ec91f1ac45527f803cf99e98c896ce6.png) center top no-repeat;
+}
+.shots .meta div.likes:before {
+  background: url(https://d13yacurqjgara.cloudfront.net/assets/icon-hearts-79d9278bcac5768da940cd4487c574f6.png?) center top no-repeat;
+}
+.shots .owner {
+  margin: 10px;
+}
+.shots .owner .avatar {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: sub;
+}
+.shots .owner .name {
+  font-weight: bold;
+  color: #4083a9;
+}
