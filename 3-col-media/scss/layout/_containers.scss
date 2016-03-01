@@ -1,0 +1,49 @@
+.example {
+    border: 6px solid black;
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    margin-bottom: 100px;
+}
+
+.example h2 {
+    text-align: center;
+    font-weight: normal;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 1em;
+}
+
+.example-page {
+    margin: 50px;
+}
+
+.example-layout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 300px);
+}
+
+.body {
+  display: flex;
+  flex-grow: 1;
+  background: pink;
+}
+
+.example-media {
+  .media, .search-group {
+    display: flex;
+    max-width: 300px;
+    img {
+      margin-right: 10px;
+    }
+    .content {
+      flex: 1;
+    }
+    input {
+      padding: 10px;
+    }
+  }
+}

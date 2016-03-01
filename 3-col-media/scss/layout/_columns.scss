@@ -1,0 +1,24 @@
+.col-1 {
+  background: lightblue;
+  flex-grow: 1;
+}
+
+.col-2 {
+  background: honeydew;
+  width: 160px;
+  order: -1;
+}
+
+.col-3 {
+  background: peachpuff;
+  width: 160px;
+}
+
+@media (max-width: 800px) {
+  .body {
+    flex-direction: column;
+  }
+  .col-2, .col-3 {
+    width: auto;
+  }
+}
