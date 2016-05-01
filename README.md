@@ -1,7 +1,5 @@
 # Holy Grail Layout and Dribbble
 
-##### Product Layout
-
 March 1, 2016
 
 ##### By Molly Curtin &amp; Anitha Srini
